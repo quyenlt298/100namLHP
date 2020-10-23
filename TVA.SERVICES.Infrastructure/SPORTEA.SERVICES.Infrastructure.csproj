@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TVA.COMMON.Security\SPORTEA.COMMON.Security.csproj" />
+    <ProjectReference Include="..\TVA.DATA.DAL.IData\SPORTEA.DATA.DAL.IData.csproj" />
+    <ProjectReference Include="..\TVA.DATA.DAL.SqlServer\SPORTEA.DATA.DAL.SqlServer.csproj" />
+    <ProjectReference Include="..\TVA.MODEL\SPORTEA.MODEL.csproj" />
+    <ProjectReference Include="..\TVA.SERVICES.Domain\SPORTEA.SERVICES.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.7" />
+  </ItemGroup>
+</Project>

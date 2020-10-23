@@ -1,0 +1,20 @@
+services:
+  tva.endpoint.api:
+    build:
+      context: /Users/ralph/Documents/GitHub/Sportea/API/TVA.ENDPOINT.API
+      dockerfile: Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: tva.endpoint.api
+    ports:
+    - target: 80
+  tva.endpoint.auth:
+    build:
+      context: /Users/ralph/Documents/GitHub/Sportea/API/TVA.ENDPOINT.Auth
+      dockerfile: Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: tva.endpoint.auth
+    ports:
+    - target: 80
+version: '3.4'

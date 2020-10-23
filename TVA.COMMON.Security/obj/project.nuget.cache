@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "8+64li3E/1xznwrEyd0cPca0oIf2TybzzjCVYEYqgpBmnN+z3dxMbuQXY1KtKsLYEgFXUpcYQAs/arTfmppcYQ==",
+  "success": true,
+  "projectFilePath": "/Users/ralph/Documents/GitHub/100namLHPAPI/TVA.COMMON.Security/SPORTEA.COMMON.Security.csproj",
+  "expectedPackageFiles": [
+    "/Users/ralph/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/ralph/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

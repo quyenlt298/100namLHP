@@ -1,0 +1,663 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/ralph/Documents/GitHub/100namLHPAPI/TVA.ENDPOINT.API/SPORTEA.ENDPOINT.API.csproj": {}
+  },
+  "projects": {
+    "/Users/ralph/Documents/GitHub/100namLHPAPI/TVA.COMMON.Http/SPORTEA.COMMON.Http.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ralph/Documents/GitHub/100namLHPAPI/TVA.COMMON.Http/SPORTEA.COMMON.Http.csproj",
+        "projectName": "SPORTEA.COMMON.Http",
+        "projectPath": "/Users/ralph/Documents/GitHub/100namLHPAPI/TVA.COMMON.Http/SPORTEA.COMMON.Http.csproj",
+        "packagesPath": "/Users/ralph/.nuget/packages/",
+        "outputPath": "/Users/ralph/Documents/GitHub/100namLHPAPI/TVA.COMMON.Http/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/ralph/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/Users/ralph/Documents/GitHub/100namLHPAPI/TVA.COMMON.Library/SPORTEA.COMMON.Library.csproj": {
+                "projectPath": "/Users/ralph/Documents/GitHub/100namLHPAPI/TVA.COMMON.Library/SPORTEA.COMMON.Library.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ralph/Documents/GitHub/100namLHPAPI/TVA.COMMON.Library/SPORTEA.COMMON.Library.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ralph/Documents/GitHub/100namLHPAPI/TVA.COMMON.Library/SPORTEA.COMMON.Library.csproj",
+        "projectName": "SPORTEA.COMMON.Library",
+        "projectPath": "/Users/ralph/Documents/GitHub/100namLHPAPI/TVA.COMMON.Library/SPORTEA.COMMON.Library.csproj",
+        "packagesPath": "/Users/ralph/.nuget/packages/",
+        "outputPath": "/Users/ralph/Documents/GitHub/100namLHPAPI/TVA.COMMON.Library/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/ralph/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ralph/Documents/GitHub/100namLHPAPI/TVA.COMMON.Security/SPORTEA.COMMON.Security.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ralph/Documents/GitHub/100namLHPAPI/TVA.COMMON.Security/SPORTEA.COMMON.Security.csproj",
+        "projectName": "SPORTEA.COMMON.Security",
+        "projectPath": "/Users/ralph/Documents/GitHub/100namLHPAPI/TVA.COMMON.Security/SPORTEA.COMMON.Security.csproj",
+        "packagesPath": "/Users/ralph/.nuget/packages/",
+        "outputPath": "/Users/ralph/Documents/GitHub/100namLHPAPI/TVA.COMMON.Security/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/ralph/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ralph/Documents/GitHub/100namLHPAPI/TVA.DATA.DAL.Entity/SPORTEA.DATA.DAL.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ralph/Documents/GitHub/100namLHPAPI/TVA.DATA.DAL.Entity/SPORTEA.DATA.DAL.Entity.csproj",
+        "projectName": "SPORTEA.DATA.DAL.Entity",
+        "projectPath": "/Users/ralph/Documents/GitHub/100namLHPAPI/TVA.DATA.DAL.Entity/SPORTEA.DATA.DAL.Entity.csproj",
+        "packagesPath": "/Users/ralph/.nuget/packages/",
+        "outputPath": "/Users/ralph/Documents/GitHub/100namLHPAPI/TVA.DATA.DAL.Entity/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/ralph/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.6.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ralph/Documents/GitHub/100namLHPAPI/TVA.DATA.DAL.IData/SPORTEA.DATA.DAL.IData.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ralph/Documents/GitHub/100namLHPAPI/TVA.DATA.DAL.IData/SPORTEA.DATA.DAL.IData.csproj",
+        "projectName": "SPORTEA.DATA.DAL.IData",
+        "projectPath": "/Users/ralph/Documents/GitHub/100namLHPAPI/TVA.DATA.DAL.IData/SPORTEA.DATA.DAL.IData.csproj",
+        "packagesPath": "/Users/ralph/.nuget/packages/",
+        "outputPath": "/Users/ralph/Documents/GitHub/100namLHPAPI/TVA.DATA.DAL.IData/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/ralph/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/Users/ralph/Documents/GitHub/100namLHPAPI/TVA.DATA.DAL.Entity/SPORTEA.DATA.DAL.Entity.csproj": {
+                "projectPath": "/Users/ralph/Documents/GitHub/100namLHPAPI/TVA.DATA.DAL.Entity/SPORTEA.DATA.DAL.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ralph/Documents/GitHub/100namLHPAPI/TVA.DATA.DAL.SqlServer/SPORTEA.DATA.DAL.SqlServer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ralph/Documents/GitHub/100namLHPAPI/TVA.DATA.DAL.SqlServer/SPORTEA.DATA.DAL.SqlServer.csproj",
+        "projectName": "SPORTEA.DATA.DAL.SqlServer",
+        "projectPath": "/Users/ralph/Documents/GitHub/100namLHPAPI/TVA.DATA.DAL.SqlServer/SPORTEA.DATA.DAL.SqlServer.csproj",
+        "packagesPath": "/Users/ralph/.nuget/packages/",
+        "outputPath": "/Users/ralph/Documents/GitHub/100namLHPAPI/TVA.DATA.DAL.SqlServer/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/ralph/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/Users/ralph/Documents/GitHub/100namLHPAPI/TVA.DATA.DAL.IData/SPORTEA.DATA.DAL.IData.csproj": {
+                "projectPath": "/Users/ralph/Documents/GitHub/100namLHPAPI/TVA.DATA.DAL.IData/SPORTEA.DATA.DAL.IData.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ralph/Documents/GitHub/100namLHPAPI/TVA.ENDPOINT.API/SPORTEA.ENDPOINT.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ralph/Documents/GitHub/100namLHPAPI/TVA.ENDPOINT.API/SPORTEA.ENDPOINT.API.csproj",
+        "projectName": "SPORTEA.ENDPOINT.API",
+        "projectPath": "/Users/ralph/Documents/GitHub/100namLHPAPI/TVA.ENDPOINT.API/SPORTEA.ENDPOINT.API.csproj",
+        "packagesPath": "/Users/ralph/.nuget/packages/",
+        "outputPath": "/Users/ralph/Documents/GitHub/100namLHPAPI/TVA.ENDPOINT.API/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/ralph/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {
+              "/Users/ralph/Documents/GitHub/100namLHPAPI/TVA.COMMON.Http/SPORTEA.COMMON.Http.csproj": {
+                "projectPath": "/Users/ralph/Documents/GitHub/100namLHPAPI/TVA.COMMON.Http/SPORTEA.COMMON.Http.csproj"
+              },
+              "/Users/ralph/Documents/GitHub/100namLHPAPI/TVA.MODEL/SPORTEA.MODEL.csproj": {
+                "projectPath": "/Users/ralph/Documents/GitHub/100namLHPAPI/TVA.MODEL/SPORTEA.MODEL.csproj"
+              },
+              "/Users/ralph/Documents/GitHub/100namLHPAPI/TVA.SERVICES.Domain/SPORTEA.SERVICES.Domain.csproj": {
+                "projectPath": "/Users/ralph/Documents/GitHub/100namLHPAPI/TVA.SERVICES.Domain/SPORTEA.SERVICES.Domain.csproj"
+              },
+              "/Users/ralph/Documents/GitHub/100namLHPAPI/TVA.SERVICES.Infrastructure/SPORTEA.SERVICES.Infrastructure.csproj": {
+                "projectPath": "/Users/ralph/Documents/GitHub/100namLHPAPI/TVA.SERVICES.Infrastructure/SPORTEA.SERVICES.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "IdentityServer4": {
+              "target": "Package",
+              "version": "[2.5.2, )"
+            },
+            "IdentityServer4.AccessTokenValidation": {
+              "target": "Package",
+              "version": "[2.7.0, )"
+            },
+            "Microsoft.AspNetCore.All": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ralph/Documents/GitHub/100namLHPAPI/TVA.MODEL/SPORTEA.MODEL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ralph/Documents/GitHub/100namLHPAPI/TVA.MODEL/SPORTEA.MODEL.csproj",
+        "projectName": "SPORTEA.MODEL",
+        "projectPath": "/Users/ralph/Documents/GitHub/100namLHPAPI/TVA.MODEL/SPORTEA.MODEL.csproj",
+        "packagesPath": "/Users/ralph/.nuget/packages/",
+        "outputPath": "/Users/ralph/Documents/GitHub/100namLHPAPI/TVA.MODEL/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/ralph/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "IdentityServer4": {
+              "target": "Package",
+              "version": "[2.5.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ralph/Documents/GitHub/100namLHPAPI/TVA.SERVICES.Domain/SPORTEA.SERVICES.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ralph/Documents/GitHub/100namLHPAPI/TVA.SERVICES.Domain/SPORTEA.SERVICES.Domain.csproj",
+        "projectName": "SPORTEA.SERVICES.Domain",
+        "projectPath": "/Users/ralph/Documents/GitHub/100namLHPAPI/TVA.SERVICES.Domain/SPORTEA.SERVICES.Domain.csproj",
+        "packagesPath": "/Users/ralph/.nuget/packages/",
+        "outputPath": "/Users/ralph/Documents/GitHub/100namLHPAPI/TVA.SERVICES.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/ralph/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/Users/ralph/Documents/GitHub/100namLHPAPI/TVA.MODEL/SPORTEA.MODEL.csproj": {
+                "projectPath": "/Users/ralph/Documents/GitHub/100namLHPAPI/TVA.MODEL/SPORTEA.MODEL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ralph/Documents/GitHub/100namLHPAPI/TVA.SERVICES.Infrastructure/SPORTEA.SERVICES.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ralph/Documents/GitHub/100namLHPAPI/TVA.SERVICES.Infrastructure/SPORTEA.SERVICES.Infrastructure.csproj",
+        "projectName": "SPORTEA.SERVICES.Infrastructure",
+        "projectPath": "/Users/ralph/Documents/GitHub/100namLHPAPI/TVA.SERVICES.Infrastructure/SPORTEA.SERVICES.Infrastructure.csproj",
+        "packagesPath": "/Users/ralph/.nuget/packages/",
+        "outputPath": "/Users/ralph/Documents/GitHub/100namLHPAPI/TVA.SERVICES.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/ralph/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/Users/ralph/Documents/GitHub/100namLHPAPI/TVA.COMMON.Security/SPORTEA.COMMON.Security.csproj": {
+                "projectPath": "/Users/ralph/Documents/GitHub/100namLHPAPI/TVA.COMMON.Security/SPORTEA.COMMON.Security.csproj"
+              },
+              "/Users/ralph/Documents/GitHub/100namLHPAPI/TVA.DATA.DAL.IData/SPORTEA.DATA.DAL.IData.csproj": {
+                "projectPath": "/Users/ralph/Documents/GitHub/100namLHPAPI/TVA.DATA.DAL.IData/SPORTEA.DATA.DAL.IData.csproj"
+              },
+              "/Users/ralph/Documents/GitHub/100namLHPAPI/TVA.DATA.DAL.SqlServer/SPORTEA.DATA.DAL.SqlServer.csproj": {
+                "projectPath": "/Users/ralph/Documents/GitHub/100namLHPAPI/TVA.DATA.DAL.SqlServer/SPORTEA.DATA.DAL.SqlServer.csproj"
+              },
+              "/Users/ralph/Documents/GitHub/100namLHPAPI/TVA.MODEL/SPORTEA.MODEL.csproj": {
+                "projectPath": "/Users/ralph/Documents/GitHub/100namLHPAPI/TVA.MODEL/SPORTEA.MODEL.csproj"
+              },
+              "/Users/ralph/Documents/GitHub/100namLHPAPI/TVA.SERVICES.Domain/SPORTEA.SERVICES.Domain.csproj": {
+                "projectPath": "/Users/ralph/Documents/GitHub/100namLHPAPI/TVA.SERVICES.Domain/SPORTEA.SERVICES.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+version: '3.4'
+
+services:
+  tva.endpoint.api:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"
+
+  tva.endpoint.auth:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"

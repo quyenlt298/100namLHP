@@ -1,0 +1,8 @@
+/Users/ralph/Documents/GitHub/Sportea/API/SPORTEA.SERVICES.EntityFramework/bin/Debug/netstandard2.0/SPORTEA.SERVICES.EntityFramework.deps.json
+/Users/ralph/Documents/GitHub/Sportea/API/SPORTEA.SERVICES.EntityFramework/bin/Debug/netstandard2.0/SPORTEA.SERVICES.EntityFramework.dll
+/Users/ralph/Documents/GitHub/Sportea/API/SPORTEA.SERVICES.EntityFramework/bin/Debug/netstandard2.0/SPORTEA.SERVICES.EntityFramework.pdb
+/Users/ralph/Documents/GitHub/Sportea/API/SPORTEA.SERVICES.EntityFramework/obj/Debug/netstandard2.0/SPORTEA.SERVICES.EntityFramework.AssemblyInfoInputs.cache
+/Users/ralph/Documents/GitHub/Sportea/API/SPORTEA.SERVICES.EntityFramework/obj/Debug/netstandard2.0/SPORTEA.SERVICES.EntityFramework.AssemblyInfo.cs
+/Users/ralph/Documents/GitHub/Sportea/API/SPORTEA.SERVICES.EntityFramework/obj/Debug/netstandard2.0/SPORTEA.SERVICES.EntityFramework.csproj.CoreCompileInputs.cache
+/Users/ralph/Documents/GitHub/Sportea/API/SPORTEA.SERVICES.EntityFramework/obj/Debug/netstandard2.0/SPORTEA.SERVICES.EntityFramework.dll
+/Users/ralph/Documents/GitHub/Sportea/API/SPORTEA.SERVICES.EntityFramework/obj/Debug/netstandard2.0/SPORTEA.SERVICES.EntityFramework.pdb

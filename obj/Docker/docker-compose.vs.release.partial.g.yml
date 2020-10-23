@@ -1,0 +1,41 @@
+version: '3.4'
+
+services:
+  tva.endpoint.api:
+    container_name: SPORTEA.ENDPOINT.API
+    build:
+      args:
+        source: obj/Docker/publish/
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "SPORTEA.ENDPOINT.API"
+    volumes:
+      - /Users/ralph/vsdbg/vs2017u5:/remote_debugger:rw
+
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /root/.nuget/packages --additionalProbingPath /root/.nuget/fallbackpackages  \"/app/SPORTEA.ENDPOINT.API.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+      com.microsoft.visual-studio.project-name: "SPORTEA.ENDPOINT.API"
+    tty: true
+  tva.endpoint.auth:
+    container_name: SPORTEA.ENDPOINT.Auth
+    build:
+      args:
+        source: obj/Docker/publish/
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "SPORTEA.ENDPOINT.Auth"
+    volumes:
+      - /Users/ralph/vsdbg/vs2017u5:/remote_debugger:rw
+
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /root/.nuget/packages --additionalProbingPath /root/.nuget/fallbackpackages  \"/app/SPORTEA.ENDPOINT.Auth.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+      com.microsoft.visual-studio.project-name: "SPORTEA.ENDPOINT.Auth"
+    tty: true

@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TVA.DATA.DAL.Entity\SPORTEA.DATA.DAL.Entity.csproj" />
+  </ItemGroup>
+
+</Project>

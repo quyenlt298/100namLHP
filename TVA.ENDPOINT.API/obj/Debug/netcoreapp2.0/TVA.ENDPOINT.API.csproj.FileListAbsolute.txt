@@ -1,0 +1,15 @@
+D:\Travel\API\TravelAssistantApi\TVA.ENDPOINT.API\bin\Debug\netcoreapp2.0\TVA.ENDPOINT.API.deps.json
+D:\Travel\API\TravelAssistantApi\TVA.ENDPOINT.API\bin\Debug\netcoreapp2.0\TVA.ENDPOINT.API.runtimeconfig.json
+D:\Travel\API\TravelAssistantApi\TVA.ENDPOINT.API\bin\Debug\netcoreapp2.0\TVA.ENDPOINT.API.runtimeconfig.dev.json
+D:\Travel\API\TravelAssistantApi\TVA.ENDPOINT.API\bin\Debug\netcoreapp2.0\TVA.ENDPOINT.API.dll
+D:\Travel\API\TravelAssistantApi\TVA.ENDPOINT.API\obj\Debug\netcoreapp2.0\TVA.ENDPOINT.API.csprojResolveAssemblyReference.cache
+D:\Travel\API\TravelAssistantApi\TVA.ENDPOINT.API\obj\Debug\netcoreapp2.0\TVA.ENDPOINT.API.csproj.CoreCompileInputs.cache
+D:\Travel\API\TravelAssistantApi\TVA.ENDPOINT.API\obj\Debug\netcoreapp2.0\TVA.ENDPOINT.API.AssemblyInfoInputs.cache
+D:\Travel\API\TravelAssistantApi\TVA.ENDPOINT.API\obj\Debug\netcoreapp2.0\TVA.ENDPOINT.API.AssemblyInfo.cs
+D:\Travel\API\TravelAssistantApi\TVA.ENDPOINT.API\bin\Debug\netcoreapp2.0\TVA.ENDPOINT.API.pdb
+D:\Travel\API\TravelAssistantApi\TVA.ENDPOINT.API\obj\Debug\netcoreapp2.0\TVA.ENDPOINT.API.dll
+D:\Travel\API\TravelAssistantApi\TVA.ENDPOINT.API\obj\Debug\netcoreapp2.0\TVA.ENDPOINT.API.pdb
+D:\Travel\API\TravelAssistantApi\TVA.ENDPOINT.API\bin\Debug\netcoreapp2.0\TVA.COMMON.Http.dll
+D:\Travel\API\TravelAssistantApi\TVA.ENDPOINT.API\bin\Debug\netcoreapp2.0\TVA.COMMON.Library.dll
+D:\Travel\API\TravelAssistantApi\TVA.ENDPOINT.API\bin\Debug\netcoreapp2.0\TVA.COMMON.Http.pdb
+D:\Travel\API\TravelAssistantApi\TVA.ENDPOINT.API\bin\Debug\netcoreapp2.0\TVA.COMMON.Library.pdb

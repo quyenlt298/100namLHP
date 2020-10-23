@@ -1,0 +1,68 @@
+services:
+  tva.endpoint.api:
+    build:
+      args:
+        source: obj/Docker/empty/
+      context: /Users/ralph/Documents/GitHub/Sportea/API/TVA.ENDPOINT.API
+      dockerfile: Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: SPORTEA.ENDPOINT.API
+    container_name: SPORTEA.ENDPOINT.API
+    entrypoint: tail -f /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      DOTNET_USE_POLLING_FILE_WATCHER: '1'
+      NUGET_FALLBACK_PACKAGES: /root/.nuget/fallbackpackages
+    image: tva.endpoint.api:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages
+        --additionalProbingPath /root/.nuget/fallbackpackages  "/app/bin/Debug/netcoreapp2.0/SPORTEA.ENDPOINT.API.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    ports:
+    - target: 80
+    tty: true
+    volumes:
+    - /Users/ralph/Documents/GitHub/Sportea/API/TVA.ENDPOINT.API:/app:rw
+    - /Users/ralph/vsdbg/vs2017u5:/remote_debugger:rw
+    - /usr/local/share/dotnet/sdk/NuGetFallbackFolder:/root/.nuget/fallbackpackages:ro
+    - /Users/ralph/.nuget/packages:/root/.nuget/packages:ro
+    - /Users/ralph/Documents/GitHub/Sportea/API/TVA.ENDPOINT.API:/src:rw
+  tva.endpoint.auth:
+    build:
+      args:
+        source: obj/Docker/empty/
+      context: /Users/ralph/Documents/GitHub/Sportea/API/TVA.ENDPOINT.Auth
+      dockerfile: Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: SPORTEA.ENDPOINT.Auth
+    container_name: SPORTEA.ENDPOINT.Auth
+    entrypoint: tail -f /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      DOTNET_USE_POLLING_FILE_WATCHER: '1'
+      NUGET_FALLBACK_PACKAGES: /root/.nuget/fallbackpackages
+    image: tva.endpoint.auth:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages
+        --additionalProbingPath /root/.nuget/fallbackpackages  "/app/bin/Debug/netcoreapp2.0/SPORTEA.ENDPOINT.Auth.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    ports:
+    - target: 80
+    tty: true
+    volumes:
+    - /Users/ralph/Documents/GitHub/Sportea/API/TVA.ENDPOINT.Auth:/app:rw
+    - /Users/ralph/vsdbg/vs2017u5:/remote_debugger:rw
+    - /usr/local/share/dotnet/sdk/NuGetFallbackFolder:/root/.nuget/fallbackpackages:ro
+    - /Users/ralph/.nuget/packages:/root/.nuget/packages:ro
+    - /Users/ralph/Documents/GitHub/Sportea/API/TVA.ENDPOINT.Auth:/src:rw
+version: '3.4'

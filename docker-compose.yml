@@ -1,0 +1,14 @@
+version: '3.4'
+
+services:
+  tva.endpoint.api:
+    image: tva.endpoint.api
+    build:
+      context: ./TVA.ENDPOINT.API
+      dockerfile: Dockerfile
+
+  tva.endpoint.auth:
+    image: tva.endpoint.auth
+    build:
+      context: ./TVA.ENDPOINT.Auth
+      dockerfile: Dockerfile

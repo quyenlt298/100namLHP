@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <DockerComposeProjectPath>..\docker-compose.dcproj</DockerComposeProjectPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="IdentityServer4" Version="2.5.2" />
+    <PackageReference Include="IdentityServer4.AccessTokenValidation" Version="2.7.0" />
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0"><PrivateAssets Condition="'%(PackageReference.Version)' == ''">all</PrivateAssets>
+<Publish Condition="'%(PackageReference.Version)' == ''">true</Publish>
+</PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TVA.COMMON.Library\SPORTEA.COMMON.Library.csproj" />
+    <ProjectReference Include="..\TVA.DATA.DAL.IData\SPORTEA.DATA.DAL.IData.csproj" />
+    <ProjectReference Include="..\TVA.DATA.DAL.SqlServer\SPORTEA.DATA.DAL.SqlServer.csproj" />
+    <ProjectReference Include="..\TVA.SERVICES.Domain\SPORTEA.SERVICES.Domain.csproj" />
+    <ProjectReference Include="..\TVA.SERVICES.External\SPORTEA.SERVICES.External.csproj" />
+    <ProjectReference Include="..\TVA.SERVICES.Infrastructure\SPORTEA.SERVICES.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

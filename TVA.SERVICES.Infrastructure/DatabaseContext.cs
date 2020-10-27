@@ -17,7 +17,7 @@ namespace SPORTEA.SERVICES.Infrastructure
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=103.130.215.156;Database=100namLHP;Integrated Security=False;User ID=sa;Password=noichaduoc123;");
+            optionsBuilder.UseSqlServer("Server=103.130.215.93;Database=100namLHP;Integrated Security=False;User ID=sa;Password=Mbn123;");
         }
     }
 }
